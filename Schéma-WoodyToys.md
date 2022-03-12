@@ -1,0 +1,1 @@
+Cette section affiche le schéma WoodyToys global et présente les éléments globaux du schéma.  Les détails de chaque service seront repris dans les sections des services concernés (vous pouvez en indiquer les liens ici pour faciliter la navigation).  
