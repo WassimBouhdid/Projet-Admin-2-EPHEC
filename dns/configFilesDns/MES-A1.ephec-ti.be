@@ -7,9 +7,9 @@ $ttl 1H
                                         2419200 ; Expire
                                         604800 ; Minimum TTL
                                         )
-            IN      NS              ns.MES-A1.ephec-ti.be.
-            IN      MX              10 mail
-ns          IN      A1              
-VoIP  IN      A              172.19.0.5
-mail  IN      A               172.19.0.4
-www          IN      A               172.19.0.3
+           IN      NS              ns.MES-A1.ephec-ti.be.
+           IN      MX              10 mail
+ns         IN      A               176.96.231.223
+VoIP       IN      A               172.19.0.5
+mail       IN      A               172.19.0.4
+www        IN      A               172.19.0.3
