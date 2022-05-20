@@ -1,0 +1,4 @@
+docker run -tid -p 53:53/udp -p 53:53/tcp -p 953:953/udp -p 953:953/tcp --name dnsfinal finaldns
+
+
+docker run -tid -p 53:53/udp -p 53:53/tcp -p 953:953/udp -p 953:953/tcp  --name dnsfinal bind

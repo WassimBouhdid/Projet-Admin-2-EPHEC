@@ -1,8 +1,10 @@
 
 FROM ubuntu:latest
 
-#Installation de bind
-RUN apt update && apt upgrade -y && apt install bind9  bind9utils dnsutils net-$
+# Mettre à jour tous les packets
+RUN apt update && apt upgrade -y
+# Installer bind et autres programme utile
+RUN apt install bind9 bind9utils dnsutils net-tools iputils-ping -y
 
 COPY named.conf /etc/bind/
 

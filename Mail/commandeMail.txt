@@ -1,0 +1,4 @@
+docker run -d -p 25:25/tcp -p 110:110/tcp -p 143:143/tcp --name postfixconf postfix
+
+
+docker run -tid -p 25:25/tcp -p 110:110/tcp -p 143:143/tcp --name postfixconf postfix
