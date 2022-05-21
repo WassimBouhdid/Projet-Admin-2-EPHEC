@@ -2,3 +2,6 @@ docker run -tid -p 53:53/udp -p 53:53/tcp -p 953:953/udp -p 953:953/tcp --name d
 
 
 docker run -tid -p 53:53/udp -p 53:53/tcp -p 953:953/udp -p 953:953/tcp  --name dnsfinal bind
+
+
+docker run -tid -p 53:53/udp -p 53:53/tcp -p 127.0.0.1:953:953/tcp --name dnsCT dns

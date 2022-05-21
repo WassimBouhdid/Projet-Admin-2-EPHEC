@@ -22,3 +22,8 @@ mail       IN      A               176.96.231.222
 ;WEB
 www        IN      A               176.96.231.222
 b2b        IN      A               176.96.231.222
+
+
+$INCLUDE mes-a1.ephec-ti.be.ksk.key
+
+$INCLUDE mes-a1.ephec-ti.be.zsk.key
