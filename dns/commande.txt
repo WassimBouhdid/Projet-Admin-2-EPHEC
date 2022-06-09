@@ -5,3 +5,5 @@ docker run -tid -p 53:53/udp -p 53:53/tcp -p 953:953/udp -p 953:953/tcp  --name 
 
 
 docker run -tid -p 53:53/udp -p 53:53/tcp -p 127.0.0.1:953:953/tcp --name dnsCT dns
+
+docker run -tid -p 80:80/udp -p 80:80/tcp -p 443:443/udp -p 443:443/tcp --name web webserv
