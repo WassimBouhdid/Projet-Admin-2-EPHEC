@@ -2,7 +2,7 @@
 FROM ubuntu:latest
 
 # Mettre à jour tous les packets
-RUN apt update && apt upgrade -y
+RUN apt update && apt upgrade -y && apt install nano
 # Installer bind et autres programme utile
 RUN apt install bind9 bind9utils dnsutils net-tools iputils-ping -y
 
